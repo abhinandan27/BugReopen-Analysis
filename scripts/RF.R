@@ -4,7 +4,7 @@ library(splitstackshape)
 
 set.seed(1)
 
-data <- read.csv("/Users/abhinandandeshpande/PycharmProjects/FSSproject/output.csv")
+data <- read.csv("/data/data.csv")
 df <- data.frame(data)
 df <- subset(df, select = c("product","severity", "priority","op_sys","time" ,"reopened") )
 
